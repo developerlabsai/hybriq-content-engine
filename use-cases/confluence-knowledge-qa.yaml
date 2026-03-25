@@ -1,0 +1,18 @@
+platform: confluence
+useCase: knowledge-qa
+title: "Build a Knowledge Base Q&A Bot for Confluence"
+painPoint: "Your team's knowledge lives in 500 Confluence pages that nobody can find. New hires search for 20 minutes, give up, and ask in Slack. The answer exists — buried in a page last updated 6 months ago by someone who left the company. Search returns 40 results and the right one is on page 3."
+solution: "A Confluence macro that adds an AI Q&A panel to any space. Users ask questions in natural language and get answers synthesized from the space's pages — with source links. Powered by HybrIQ, which caches common questions so repeated queries are instant and free."
+keywords:
+  - "confluence ai search"
+  - "knowledge base ai bot"
+  - "confluence qa automation"
+  - "ai documentation search"
+codeSnippets:
+  - label: "Knowledge Q&A Agent"
+    file: "src/agents/knowledge-qa.ts"
+scaffoldRepo: "https://github.com/developerlabsai/hybriq-confluence-starter"
+ctaUrl: "https://hybriq.dev/confluence"
+author: "HybrIQ Team"
+category: "Knowledge Management"
+estimatedReadTime: 8

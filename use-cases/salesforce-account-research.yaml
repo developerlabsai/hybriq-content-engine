@@ -1,0 +1,18 @@
+platform: salesforce
+useCase: account-research
+title: "AI Account Research for Salesforce Reps"
+painPoint: "Before every enterprise call, reps spend 20 minutes on Google, LinkedIn, and Crunchbase trying to understand the account. They piece together company size, recent news, technology stack, and talking points from 5 different tabs. This research is duplicated across reps — when a colleague already researched the same account last month, that work is lost."
+solution: "An AI research agent that generates comprehensive account briefings from available data: company overview, recent signals, technology indicators, and personalized talking points. Called from a Lightning Web Component on the Account page. HybrIQ caches account research across your org — the second rep to look up the same company gets instant results at zero cost."
+keywords:
+  - "salesforce account research ai"
+  - "ai account intelligence"
+  - "salesforce ai enrichment"
+  - "crm account research tool"
+codeSnippets:
+  - label: "Account Research Agent"
+    file: "src/agents/account-research.ts"
+scaffoldRepo: "https://github.com/developerlabsai/hybriq-salesforce-starter"
+ctaUrl: "https://hybriq.dev/salesforce"
+author: "HybrIQ Team"
+category: "Sales Intelligence"
+estimatedReadTime: 8

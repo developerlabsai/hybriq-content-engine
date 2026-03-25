@@ -1,0 +1,18 @@
+platform: salesforce
+useCase: opp-scoring
+title: "AI Opportunity Scoring for Salesforce with HybrIQ"
+painPoint: "Salesforce Einstein scores opportunities with a black box model that reps don't trust. The score says 72% but nobody knows why. Managers build their own forecasts in spreadsheets because the CRM scores don't align with reality. Meanwhile, reps waste time on opportunities that were never going to close."
+solution: "An AI scoring agent that produces transparent win probability assessments with specific signal analysis, risk factors, and recommended actions. Deployed as an external service called from Lightning Web Components — no managed package required. HybrIQ caches similar opportunity profiles for instant scoring."
+keywords:
+  - "salesforce ai opportunity scoring"
+  - "ai deal scoring salesforce"
+  - "salesforce ai integration"
+  - "salesforce lwc ai"
+codeSnippets:
+  - label: "Opportunity Scoring Agent"
+    file: "src/agents/opp-scoring.ts"
+scaffoldRepo: "https://github.com/developerlabsai/hybriq-salesforce-starter"
+ctaUrl: "https://hybriq.dev/salesforce"
+author: "HybrIQ Team"
+category: "Sales Intelligence"
+estimatedReadTime: 9

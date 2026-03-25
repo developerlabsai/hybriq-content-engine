@@ -1,0 +1,18 @@
+platform: confluence
+useCase: spec-review
+title: "AI Spec Reviews in Confluence with HybrIQ"
+painPoint: "Feature specs sit in Confluence for days before anyone reviews them. When reviews happen, they catch formatting issues but miss the real problems: ambiguous requirements, missing edge cases, untestable acceptance criteria, and scope gaps. By the time these surface during implementation, it's too late."
+solution: "An AI spec review agent that runs as a Confluence macro. Drop it on any spec page and it analyzes the document for gaps, ambiguities, missing acceptance criteria, and scope issues — producing a structured review with a completeness score. Powered by HybrIQ with caching across your organization's specs."
+keywords:
+  - "confluence ai review"
+  - "ai spec review tool"
+  - "confluence automation ai"
+  - "document review ai"
+codeSnippets:
+  - label: "Spec Review Agent"
+    file: "src/agents/spec-review.ts"
+scaffoldRepo: "https://github.com/developerlabsai/hybriq-confluence-starter"
+ctaUrl: "https://hybriq.dev/confluence"
+author: "HybrIQ Team"
+category: "Engineering"
+estimatedReadTime: 7

@@ -1,0 +1,18 @@
+platform: monday
+useCase: status-reporter
+title: "AI Status Reports from Monday.com Board Data"
+painPoint: "Every Friday afternoon, project managers spend 45 minutes clicking through board items to write a status report. They count items by status, identify blockers, note overdue tasks, and synthesize it into an email. It's the same mechanical process every week — and the reports still miss context that only a human reader of the items would catch."
+solution: "An AI agent that reads your Monday.com board data and generates comprehensive status reports: items by status group, overdue items with risk assessment, blockers with suggested resolutions, and a narrative summary for stakeholders. Hit one API endpoint, get a report ready to send."
+keywords:
+  - "monday.com status report ai"
+  - "ai project status report"
+  - "monday automation report"
+  - "automated project reporting"
+codeSnippets:
+  - label: "Status Reporter Agent"
+    file: "src/agents/status-reporter.ts"
+scaffoldRepo: "https://github.com/developerlabsai/hybriq-monday-starter"
+ctaUrl: "https://hybriq.dev/monday"
+author: "HybrIQ Team"
+category: "Project Management"
+estimatedReadTime: 7

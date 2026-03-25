@@ -1,0 +1,18 @@
+platform: jira
+useCase: issue-triage
+title: "Build an AI Issue Triage Bot for Jira in 5 Minutes"
+painPoint: "New issues pile up in the backlog with vague titles, no priority, no component label, and no team assignment. Someone spends 30 minutes every morning manually reading each issue, guessing priority, and dragging them to the right board. Half get misrouted."
+solution: "An AI triage agent that reads new issue descriptions and automatically classifies them by priority (P0-P4), component, team, and suggested labels. Built as an Atlassian Forge app powered by HybrIQ — every classification is cached so similar issues resolve instantly."
+keywords:
+  - "jira ai triage"
+  - "ai issue classification jira"
+  - "jira automation ai"
+  - "jira forge app ai"
+codeSnippets:
+  - label: "Issue Triage Agent"
+    file: "src/agents/issue-triage.ts"
+scaffoldRepo: "https://github.com/developerlabsai/hybriq-jira-starter"
+ctaUrl: "https://hybriq.dev/jira"
+author: "HybrIQ Team"
+category: "Engineering"
+estimatedReadTime: 8

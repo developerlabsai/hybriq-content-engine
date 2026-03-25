@@ -1,0 +1,18 @@
+platform: jira
+useCase: sprint-retro
+title: "Auto-Generate Sprint Retrospectives from Jira Data"
+painPoint: "Sprint retros take an hour of everyone's time. The facilitator spends 20 minutes before the meeting scrolling through completed issues trying to remember what happened. The output is a document nobody reads. Two weeks later, the same problems recur because action items weren't tracked."
+solution: "An AI agent that analyzes completed sprint issues and generates structured retrospectives: What Went Well, What Didn't, Patterns Detected, and Action Items with owners. Runs as a Forge app panel on your sprint board, powered by HybrIQ."
+keywords:
+  - "jira sprint retrospective ai"
+  - "automated sprint retro"
+  - "jira ai plugin"
+  - "agile retrospective tool"
+codeSnippets:
+  - label: "Sprint Retro Agent"
+    file: "src/agents/sprint-retro.ts"
+scaffoldRepo: "https://github.com/developerlabsai/hybriq-jira-starter"
+ctaUrl: "https://hybriq.dev/jira"
+author: "HybrIQ Team"
+category: "Engineering"
+estimatedReadTime: 7

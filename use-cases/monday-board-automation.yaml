@@ -1,0 +1,18 @@
+platform: monday
+useCase: board-automation
+title: "AI-Powered Board Automations for Monday.com"
+painPoint: "Monday.com automations are powerful but rule-based — they can't understand context. You can trigger 'when status changes, notify someone' but you can't trigger 'when this item looks like it's blocked, suggest who should help and why.' Teams create 50 automations that handle the obvious cases and miss the nuanced ones."
+solution: "An AI automation agent that processes board item changes and produces intelligent suggestions: reassign to the right team member based on expertise, flag items at risk of missing deadlines, and auto-categorize items by topic. Built on HybrIQ with caching so similar board patterns resolve instantly."
+keywords:
+  - "monday.com ai automation"
+  - "monday board ai"
+  - "monday.com ai integration"
+  - "ai project management"
+codeSnippets:
+  - label: "Board Automation Agent"
+    file: "src/agents/board-automation.ts"
+scaffoldRepo: "https://github.com/developerlabsai/hybriq-monday-starter"
+ctaUrl: "https://hybriq.dev/monday"
+author: "HybrIQ Team"
+category: "Project Management"
+estimatedReadTime: 7
