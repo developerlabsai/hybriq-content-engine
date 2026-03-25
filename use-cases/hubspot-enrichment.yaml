@@ -1,0 +1,18 @@
+platform: hubspot
+useCase: enrichment
+title: "Auto-Enrich HubSpot Contacts with AI in 5 Minutes"
+painPoint: "Your CRM is full of contacts with just a name and email. Reps manually research each prospect on LinkedIn, company websites, and news articles before every call. That's 15-20 minutes of research per prospect — time that should be spent selling."
+solution: "An AI enrichment agent that analyzes available contact data and generates rich prospect profiles: company context, recent news, technology stack signals, and personalized talking points. Runs via API endpoint or auto-triggers on new contact creation. HybrIQ's cross-tenant cache means enriching a contact at a company you've already researched costs nothing."
+keywords:
+  - "hubspot contact enrichment ai"
+  - "ai crm enrichment"
+  - "hubspot data enrichment"
+  - "auto enrich crm contacts"
+codeSnippets:
+  - label: "HubSpot Webhook Handler"
+    file: "src/platform/hubspot-app.ts"
+scaffoldRepo: "https://github.com/developerlabsai/hybriq-hubspot-starter"
+ctaUrl: "https://hybriq.dev/hubspot"
+author: "HybrIQ Team"
+category: "Sales Intelligence"
+estimatedReadTime: 7

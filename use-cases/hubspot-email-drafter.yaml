@@ -1,0 +1,18 @@
+platform: hubspot
+useCase: email-drafter
+title: "AI Follow-Up Emails from HubSpot Deal Context"
+painPoint: "Reps stare at blank email drafts for 10 minutes trying to write the perfect follow-up. They know the deal context but struggle to turn CRM data into compelling, personalized outreach. Templates feel generic. Manual writing doesn't scale when you have 30 deals to follow up on this week."
+solution: "An AI email drafting agent that reads deal context and writes personalized follow-up emails with a specific CTA. Supports professional, casual, and urgent tones. Hit the API endpoint with deal context and recipient name, get a ready-to-send email with subject line and suggested send time. HybrIQ caches similar deal contexts so drafting emails for similar deals gets cheaper over time."
+keywords:
+  - "hubspot ai email drafting"
+  - "ai sales email generator"
+  - "hubspot follow up ai"
+  - "crm email automation ai"
+codeSnippets:
+  - label: "Email Drafter Agent"
+    file: "src/agents/email-drafter.ts"
+scaffoldRepo: "https://github.com/developerlabsai/hybriq-hubspot-starter"
+ctaUrl: "https://hybriq.dev/hubspot"
+author: "HybrIQ Team"
+category: "Sales Productivity"
+estimatedReadTime: 7

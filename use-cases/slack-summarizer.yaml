@@ -1,0 +1,18 @@
+platform: slack
+useCase: summarizer
+title: "Auto-Summarize Slack Channels with AI in 5 Minutes"
+painPoint: "You come back from a meeting to 200 unread messages. Scrolling through takes 20 minutes and you still miss the important decisions. Multiply that by every channel you're in, every day. Teams lose hours to information overload in Slack."
+solution: "A /summarize command that distills channel conversations into TL;DR summaries with action items. Built on HybrIQ's execution engine — every summary is cached, so summarizing the same thread twice costs nothing."
+keywords:
+  - "slack channel summarizer"
+  - "ai slack summary"
+  - "summarize slack messages"
+  - "slack automation ai"
+codeSnippets:
+  - label: "Summarizer Agent"
+    file: "src/agents/summarizer.ts"
+scaffoldRepo: "https://github.com/developerlabsai/hybriq-slack-starter"
+ctaUrl: "https://hybriq.dev/slack"
+author: "HybrIQ Team"
+category: "Productivity"
+estimatedReadTime: 7

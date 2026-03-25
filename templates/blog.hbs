@@ -1,0 +1,54 @@
+---
+title: "{{title}}"
+description: "{{metaDescription}}"
+date: "{{date}}"
+author: "{{author}}"
+tags: [{{#each keywords}}"{{this}}"{{#unless @last}}, {{/unless}}{{/each}}]
+canonical: "{{canonicalUrl}}"
+readTime: {{estimatedReadTime}}
+scaffold: "{{scaffoldRepo}}"
+---
+
+# {{title}}
+
+{{sections.introduction}}
+
+## Prerequisites
+
+- Node.js 18+ installed
+- A [HybrIQ account](https://hybriq.dev) with an API key
+- An [Anthropic API key](https://console.anthropic.com) (BYOK)
+{{#if platformPrerequisite}}- {{platformPrerequisite}}{{/if}}
+
+## The Problem
+
+{{sections.problem}}
+
+## The Solution
+
+{{sections.solution}}
+
+{{#each codeBlocks}}
+### {{this.label}}
+
+```{{this.language}}
+{{this.code}}
+```
+
+{{/each}}
+
+## What HybrIQ Gives You for Free
+
+{{sections.benefits}}
+
+## What's Next?
+
+{{sections.nextSteps}}
+
+- Clone the starter: [{{scaffoldRepo}}]({{scaffoldRepo}})
+- Browse more scaffolds: [hybriq.dev](https://hybriq.dev)
+- Read the SDK docs: [HybrIQ SDK](https://hybriq.dev/docs/sdk)
+
+---
+
+*Built with [HybrIQ](https://hybriq.dev) — the AI backend that gets cheaper the more you use it.*

@@ -1,0 +1,18 @@
+platform: slack
+useCase: incident-commander
+title: "Build an AI Incident Commander for Slack in 5 Minutes"
+painPoint: "When production goes down, the incident channel floods with status updates, log dumps, and questions. The incident commander spends half their time synthesizing information instead of coordinating the response. Post-incident, writing the retrospective takes another 2 hours of scrolling through thread chaos."
+solution: "An AI incident commander bot that monitors your incident channel, synthesizes updates into structured status reports, and auto-generates post-incident retrospectives. Built on HybrIQ — every synthesis is tracked for cost and cached for similar incidents."
+keywords:
+  - "slack incident management ai"
+  - "ai incident commander"
+  - "slack incident bot"
+  - "automated incident response"
+codeSnippets:
+  - label: "Slack Event Handler"
+    file: "src/platform/bolt-app.ts"
+scaffoldRepo: "https://github.com/developerlabsai/hybriq-slack-starter"
+ctaUrl: "https://hybriq.dev/slack"
+author: "HybrIQ Team"
+category: "DevOps"
+estimatedReadTime: 9

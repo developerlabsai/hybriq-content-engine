@@ -1,0 +1,20 @@
+platform: slack
+useCase: qa-bot
+title: "Build an AI Q&A Bot for Slack in 5 Minutes"
+painPoint: "Teams ask the same questions every day. Knowledge is scattered across docs, wikis, Notion pages, and tribal memory. New hires wait hours for answers that senior engineers could give in seconds — if they weren't buried in their own work."
+solution: "A Slack bot that lives in your channels and answers questions instantly using HybrIQ's AI execution engine. Clone the scaffold, add your API keys, run npm start. The bot handles @mentions with AI-generated responses, and HybrIQ automatically caches repeated questions so the second ask costs $0."
+keywords:
+  - "ai slack bot"
+  - "slack ai assistant"
+  - "build slack bot tutorial"
+  - "slack chatbot ai"
+codeSnippets:
+  - label: "Slack Event Handler"
+    file: "src/platform/bolt-app.ts"
+  - label: "Q&A Agent"
+    file: "src/agents/qa-bot.ts"
+scaffoldRepo: "https://github.com/developerlabsai/hybriq-slack-starter"
+ctaUrl: "https://hybriq.dev/slack"
+author: "HybrIQ Team"
+category: "Developer Tools"
+estimatedReadTime: 8

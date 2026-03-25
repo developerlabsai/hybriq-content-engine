@@ -1,0 +1,18 @@
+platform: hubspot
+useCase: deal-summary
+title: "AI Deal Intelligence for HubSpot in 5 Minutes"
+painPoint: "Sales managers spend Monday mornings clicking through 50 deals trying to understand pipeline health. Each deal is a collection of scattered notes, emails, and call logs. Building a forecast means synthesizing information from multiple sources per deal — a process that takes hours and produces inconsistent results."
+solution: "An AI deal intelligence agent that generates structured deal summaries with win probability, key risks, and recommended next steps. Triggers automatically on deal stage changes via HubSpot webhooks. HybrIQ tracks every summary cost so you know exactly what your pipeline intelligence costs per deal."
+keywords:
+  - "hubspot deal intelligence ai"
+  - "ai deal summary crm"
+  - "hubspot pipeline ai"
+  - "hubspot ai plugin"
+codeSnippets:
+  - label: "Deal Summary Agent"
+    file: "src/agents/deal-summary.ts"
+scaffoldRepo: "https://github.com/developerlabsai/hybriq-hubspot-starter"
+ctaUrl: "https://hybriq.dev/hubspot"
+author: "HybrIQ Team"
+category: "Sales Intelligence"
+estimatedReadTime: 7

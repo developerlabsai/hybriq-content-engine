@@ -1,0 +1,20 @@
+platform: slack
+useCase: ticket-router
+title: "Build an AI Ticket Router for Slack in 5 Minutes"
+painPoint: "Support teams waste 30% of their time manually triaging incoming tickets in Slack channels. Messages go to the wrong team, response times suffer, and urgent issues get buried under low-priority noise. The person routing tickets becomes the bottleneck."
+solution: "An AI-powered /route command that classifies incoming support messages by urgency (Critical/High/Medium/Low) and department (Engineering/Product/Sales/Support/Billing), then posts a structured routing card. HybrIQ caches similar classifications so repeated ticket types resolve instantly."
+keywords:
+  - "slack ticket routing ai"
+  - "ai support triage"
+  - "slack automation support"
+  - "ai ticket classifier"
+codeSnippets:
+  - label: "Ticket Router Agent"
+    file: "src/agents/ticket-router.ts"
+  - label: "Slack Event Handler"
+    file: "src/platform/bolt-app.ts"
+scaffoldRepo: "https://github.com/developerlabsai/hybriq-slack-starter"
+ctaUrl: "https://hybriq.dev/slack"
+author: "HybrIQ Team"
+category: "Customer Support"
+estimatedReadTime: 8

@@ -1,0 +1,20 @@
+platform: hubspot
+useCase: lead-scorer
+title: "AI-Powered Lead Scoring in HubSpot with HybrIQ"
+painPoint: "Your sales team wastes time chasing leads that will never close. Manual lead scoring is subjective and inconsistent — one rep's 'hot lead' is another's 'maybe later.' HubSpot's native scoring is rule-based and misses the nuance of buying signals, company fit, and engagement patterns."
+solution: "An AI lead scoring agent that analyzes company data, engagement signals, and buying patterns to produce a 1-100 score with grade, signals breakdown, and recommended next action. Triggered automatically on new contact creation via HubSpot webhooks, or manually via API. HybrIQ caches similar company profiles so scoring a second SaaS startup in the same segment costs $0."
+keywords:
+  - "hubspot ai lead scoring"
+  - "ai crm lead score"
+  - "hubspot automation ai"
+  - "hubspot ai integration"
+codeSnippets:
+  - label: "Lead Scorer Agent"
+    file: "src/agents/lead-scorer.ts"
+  - label: "HubSpot Webhook Handler"
+    file: "src/platform/hubspot-app.ts"
+scaffoldRepo: "https://github.com/developerlabsai/hybriq-hubspot-starter"
+ctaUrl: "https://hybriq.dev/hubspot"
+author: "HybrIQ Team"
+category: "Sales Intelligence"
+estimatedReadTime: 8
